@@ -39,4 +39,4 @@ This project consists of an HTML and CSS codebase for a personal portfolio websi
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 
-Made with :heart: by Keshwam(https://github.com/itskeshwam)
+Made with :heart: by Keshwam (https://github.com/itskeshwam)
