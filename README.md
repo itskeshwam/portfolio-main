@@ -1,4 +1,3 @@
-# portfolio-main
 # Personal Portfolio Website
 
 This is a personal portfolio website that showcases your skills, experience, and education. The website is built using HTML and CSS, and it includes smooth scrolling navigation and tab switching functionality.
