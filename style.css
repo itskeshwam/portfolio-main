@@ -408,6 +408,11 @@ nav .fas {
         right: 0;
         height: 100vh;
         padding-top: 50px;
+        transform: translateX(200px); /* Keep the menu hidden by default */
+        transition: transform 0.3s ease-in-out;
+    }
+    nav ul.show {
+        transform: translateX(0);
     }
 
     nav ul li {

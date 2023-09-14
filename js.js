@@ -21,5 +21,21 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 });
 
+function openTab(tabId) {
+    const tabContents = document.querySelectorAll('.tab-contents');
+    tabContents.forEach(content => {
+        content.style.display = 'none';
+    });
+    const selectedTab = document.getElementById(tabId);
+    if (selectedTab) {
+        selectedTab.style.display = 'block';
+    }
+}
 
+const menuIcon = document.getElementById('menu-icon');
+const navMenu = document.querySelector('nav ul');
+
+menuIcon.addEventListener('click', function () {
+    navMenu.classList.toggle('show');
+});
 
