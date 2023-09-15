@@ -32,10 +32,11 @@ function openTab(tabId) {
     }
 }
 
-const menuIcon = document.getElementById('menu-icon');
-const navMenu = document.querySelector('nav ul');
+document.addEventListener('DOMContentLoaded', function () {
+    const menuIcon = document.getElementById('menu-icon');
+    const navMenu = document.querySelector('nav ul');
 
-menuIcon.addEventListener('click', function () {
-    navMenu.classList.toggle('show');
-});
-
+    menuIcon.addEventListener('click', function () {
+        navMenu.classList.toggle('show');
+    });
+    })
